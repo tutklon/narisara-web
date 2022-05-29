@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="h1">{{ loadedData }}</h1>
+    <h1 class="bg-red-200">{{ loadedData }}</h1>
   </div> 
 </template>
 
@@ -18,9 +18,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.h1 {
-  
-}
-</style>
