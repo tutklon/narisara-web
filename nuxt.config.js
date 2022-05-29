@@ -1,6 +1,9 @@
 const bodyParser = require('body-parser')
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  generate: {
+    dir: 'public'
+  },
   head: {
     title: 'Narisara',
     htmlAttrs: {
