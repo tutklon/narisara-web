@@ -1,5 +1,4 @@
 module.exports = {
-  target: static,
   content: [
     "./components/**/*.{js,vue,ts}",
     "./layouts/**/*.vue",
