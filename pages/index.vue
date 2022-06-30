@@ -1,7 +1,13 @@
-<template>
-  <div>
-    <h1 class="bg-red-200">{{ loadedData }}</h1>
-  </div> 
+<template lang="pug">
+  main
+    .content
+      h1 Çizimler
+      ContentBody
+      h1 Mangalar
+      ContentBody
+      h1 Diğer
+      ContentBody
+    Navbar(class="nvb")
 </template>
 
 <script>
@@ -18,3 +24,14 @@ export default {
   }
 }
 </script>
+<style scoped>
+main {
+  @apply flex;
+}
+.content {
+  @apply w-5/6 p-2 ml-8;
+}
+h1 {
+  @apply text-3xl my-4 ml-2 text-left;
+}
+</style>
